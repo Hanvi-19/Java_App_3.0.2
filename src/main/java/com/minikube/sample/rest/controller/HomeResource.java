@@ -29,6 +29,7 @@ public class HomeResource {
 
     @Getter
     @Setter
+    @Data
     public static class ResponseData {
         //private String name;
         //private Integer id;
