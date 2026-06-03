@@ -30,9 +30,26 @@ public class HomeResource {
     @Getter
     @Setter
     public static class ResponseData {
-        private String name;
-        private Integer id;
+        //private String name;
+        //private Integer id;
         private String place;
         private String value;
+
+
+    // Getter and Setter for id
+    public int getId() {
+        return id;
     }
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    // Getter and Setter for place
+    public String getPlace() {
+        return place;
+    }
+    public void setPlace(String place) {
+        this.place = place;
+    }
+}
 }
