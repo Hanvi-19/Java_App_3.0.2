@@ -31,8 +31,8 @@ public class HomeResource {
     @Setter
     @Data
     public static class ResponseData {
-        //private String name;
-        //private Integer id;
+        private String name;
+        private Integer id;
         private String place;
         private String value;
 
